@@ -51,6 +51,11 @@ The app is composed of the following directories & files, with additional descri
 └── server.js # the server entrypoint that runs our express application
 ```
 
+## Getting Started
+1. In the `memo` directory, run `npm install`
+1. Start the dev server with `npm run dev`
+1. Tests can be run using `npm run test` (or `npm run test:watch` to rerun tests on file changes)
+
 ## Requirements
 In its current form, our app sets up an HTTP server that runs a GraphQL endpoint on `http://localhost:3000/graphql`. But some important parts are missing!
 
