@@ -1,5 +1,5 @@
 {
-  "name": "express-graphql-demo",
+  "name": "memo",
   "version": "1.0.0",
   "description": "A demo of an Express GraphQL API",
   "main": "server.js",

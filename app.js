@@ -2,12 +2,14 @@
 const express = require('express')
 const { graphqlHTTP } = require('express-graphql')
 
-// TODO: Bring in our domain-specific logic, ie. our schema and resolvers
+// Bring in our domain-specific logic, ie. our schema and resolvers
+const schema = require('./lib/schema')
+const resolvers = require('./lib/resolvers')
 
 // Initialize a new express app
 const app = express()
 
-// TODO: Write our application code!
+// Add our express-graphql middleware to the /graphql endpoint
 app.use(
   '/graphql',
   graphqlHTTP({
