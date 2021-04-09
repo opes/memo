@@ -4,5 +4,5 @@ const port = 3000
 
 // Start the server on the specified port
 app.listen(port, () =>
-  console.log(`Server started on https://localhost:${port}/`)
+  console.log(`Server started on http://localhost:${port}/graphql`)
 )
