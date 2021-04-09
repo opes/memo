@@ -79,4 +79,5 @@ Other things to consider exploring:
 * Creating a "contact book" for adding/updating/deleting contacts for a given user
 * Creating a resolver that fetches data from an API (perhaps https://the-one-api.dev/?) 
 * Adding the [GraphQL Playground](https://www.npmjs.com/package/graphql-playground-middleware-express)
+* Installing the [GraphQL VS Code Extension](https://github.com/graphql/vscode-graphql)
 * Learning about the [different types](https://graphql.org/learn/schema/#type-language) available in the GraphQL Schema Definition Language and using them in MEMO (perhaps an `enum` type for `HOBBIT`, `HUMAN`, `ELF`, `WIZARD`?)
