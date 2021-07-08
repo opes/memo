@@ -1,4 +1,4 @@
-module.exports = [
+const contacts = [
   {
     id: '1',
     first_name: 'Bilbo',
@@ -36,3 +36,5 @@ module.exports = [
     email: 'hobbits@hobbiton.nz',
   },
 ]
+
+module.exports = contacts
